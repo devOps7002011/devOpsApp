@@ -21,7 +21,7 @@ class Song(
     @get:Size(max = 256)
     var genre: String,
 
-    @get:Max(2200) @get:NotNull
+    @get:Max(2025) @get:NotNull
     var year: Int,
 
     @get:Id
