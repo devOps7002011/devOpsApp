@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/devOpsApp-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/music-service-0.0.1-SNAPSHOT.jar

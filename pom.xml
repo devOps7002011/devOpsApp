@@ -95,6 +95,12 @@
         <version>${version.springfox}</version>
     </dependency>
 
+        <dependency>
+            <groupId>io.logz.logback</groupId>
+            <artifactId>logzio-logback-appender</artifactId>
+            <version>1.0.19</version>
+        </dependency>
+
 
     </dependencies>
     </dependencyManagement>
