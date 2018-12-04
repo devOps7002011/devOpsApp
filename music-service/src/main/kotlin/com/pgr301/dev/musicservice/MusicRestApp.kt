@@ -28,7 +28,7 @@ class MusicRestApp{
 fun main(args: Array<String>) {
 
 
-    var logger = LoggerFactory.getLogger(MusicRestApp::class.java)
+    val logger = LoggerFactory.getLogger(MusicRestApp::class.java)
     SpringApplication.run(MusicRestApp::class.java, *args)
-    logger.info("Testing logz.io!");
+    logger.info("Testing logz.io!")
 }
