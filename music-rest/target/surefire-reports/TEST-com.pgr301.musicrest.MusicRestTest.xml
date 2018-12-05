@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pgr301.musicrest.MusicRestTest" time="15.966" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pgr301.musicrest.MusicRestTest" time="16.398" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.plugins.compatible.build" value="182.3040"/>
     <property name="idea.version" value="2018.2.1"/>
@@ -31,7 +31,7 @@
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/Users/elise/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/182.3911.36/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="jnidispatch.path" value="/var/folders/62/tcp57dx12n5dkl98w15v98bc0000gn/T/jna-96597620/jna5831490027469996660.tmp"/>
+    <property name="jnidispatch.path" value="/var/folders/62/tcp57dx12n5dkl98w15v98bc0000gn/T/jna-96597620/jna6432964193438770126.tmp"/>
     <property name="java.library.path" value="/Users/elise/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -66,7 +66,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testDeleteAllBooks" classname="com.pgr301.musicrest.MusicRestTest" time="4.236"/>
-  <testcase name="testNoGetSong" classname="com.pgr301.musicrest.MusicRestTest" time="0.088"/>
-  <testcase name="testGetAll" classname="com.pgr301.musicrest.MusicRestTest" time="0.054"/>
+  <testcase name="testDeleteAllBooks" classname="com.pgr301.musicrest.MusicRestTest" time="3.064"/>
+  <testcase name="testNoGetSong" classname="com.pgr301.musicrest.MusicRestTest" time="0.071"/>
+  <testcase name="testGetAll" classname="com.pgr301.musicrest.MusicRestTest" time="0.05"/>
 </testsuite>

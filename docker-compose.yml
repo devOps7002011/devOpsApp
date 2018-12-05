@@ -8,9 +8,9 @@ version: '3.7'
 
 services:
 
-  testapp:
+  test-app:
     build:
-      context: ./music-service
+      context: ./music-rest
       dockerfile: Dockerfile
     ports:
     - "8081:8081"
