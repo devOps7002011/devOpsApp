@@ -11,6 +11,7 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.web.server.LocalServerPort
@@ -22,6 +23,8 @@ import org.springframework.test.context.junit4.SpringRunner
 @SpringBootTest(classes = [(MusicApp::class)],
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class MusicRestTest{
+
+    var logger = LoggerFactory.getLogger(MusicRestTest::class.java)
 
     @LocalServerPort
     protected var port = 0
@@ -60,6 +63,8 @@ class MusicRestTest{
                 .then()
                 .statusCode(200)
                 .body("data.size()", CoreMatchers.equalTo(5))
+
+        return logger.info("test")
     }
 
     @Test

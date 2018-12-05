@@ -1,5 +1,6 @@
 package com.pgr301.dev
 
+import org.slf4j.LoggerFactory
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.context.annotation.Bean
@@ -24,5 +25,8 @@ class MusicApp{
 }
 
 fun main(args: Array<String>) {
+
+    val logger = LoggerFactory.getLogger(MusicApp::class.java)
+    logger.info("Hello I´m logging")
     SpringApplication.run(MusicApp::class.java, *args)
 }

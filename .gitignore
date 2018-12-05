@@ -2,5 +2,8 @@ target/*
 .env
 .idea
 devOpsApp.iml
-musicservice.iml
+musicrest.iml
 restexception.iml
+
+credentials.yml
+logback.xml
