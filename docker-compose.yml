@@ -4,16 +4,14 @@
 # docker-compose ps
 # docker-compose down
 
-
-
 version: '3.7'
-  postgres:
-    image: "postgres:10"
+
 services:
+
+  testapp:
     build:
       context: ./music-service
       dockerfile: Dockerfile
-    depends_on:
-    - postgres
     ports:
     - "8081:8081"
+
