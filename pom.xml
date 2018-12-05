@@ -8,8 +8,8 @@
     <artifactId>devOpsApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>music-service</module>
         <module>rest-exception</module>
+        <module>music-rest</module>
     </modules>
 
     <packaging>pom</packaging>
