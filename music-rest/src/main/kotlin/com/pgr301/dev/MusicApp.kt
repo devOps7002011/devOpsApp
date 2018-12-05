@@ -1,6 +1,5 @@
 package com.pgr301.dev
 
-import org.slf4j.LoggerFactory
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.context.annotation.Bean
@@ -10,12 +9,10 @@ import springfox.documentation.spring.web.plugins.Docket
 import springfox.documentation.swagger2.annotations.EnableSwagger2
 
 
+
 @SpringBootApplication(scanBasePackages = ["com.pgr301.dev"])
 @EnableSwagger2
-class MusicRestApp{
-
-
-
+class MusicApp{
 
     @Bean
     fun swaggerApi(): Docket {
@@ -27,9 +24,5 @@ class MusicRestApp{
 }
 
 fun main(args: Array<String>) {
-
-
-    val logger = LoggerFactory.getLogger(MusicRestApp::class.java)
-    SpringApplication.run(MusicRestApp::class.java, *args)
-    logger.info("Testing logz.io!")
+    SpringApplication.run(MusicApp::class.java, *args)
 }

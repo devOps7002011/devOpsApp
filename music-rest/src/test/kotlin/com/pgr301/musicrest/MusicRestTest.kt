@@ -1,6 +1,6 @@
 package com.pgr301.musicrest
 
-import com.pgr301.dev.MusicRestApp
+import com.pgr301.dev.MusicApp
 import com.pgr301.dev.Song
 import com.pgr301.dev.SongDto
 import com.pgr301.dev.SongRepository
@@ -19,7 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @ActiveProfiles("test")
 @RunWith(SpringRunner::class)
-@SpringBootTest(classes = [(MusicRestApp::class)],
+@SpringBootTest(classes = [(MusicApp::class)],
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class MusicRestTest{
 
